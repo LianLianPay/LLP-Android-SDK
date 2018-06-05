@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/demo_comm_title" />
+        
+        <!-- com.yintong.secure.widget.TestButton 
+            android:id="@+id/test_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="just for test"
+            android:textSize="22sp"  /-->
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="用户ID"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/idcard"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="身份证"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="姓名"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/money"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="付款金额"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="0.01" />
+
+        <EditText
+            android:id="@+id/share_money"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="分账信息"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="201501191000181505^101001^0.01^分账说明1|201306081000001016^101001^0.01^分账说明2|201306031000001013^101001^0.01^分账说明3" 
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_precard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/bankno"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="银行卡"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="6212261202029696963" />
+
+            <EditText
+                android:id="@+id/agree_no"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="支付协议号"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_agree_no"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/repayment_no"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="分期计划编号"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" 
+                android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/repayment_plan"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="分1期支付"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="18dp" 
+                android:textColor="#000000"/>
+
+                <Button
+                    android:id="@+id/minus"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/plus"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="+" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/jump_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="连连支付"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/sdk_introduction"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="SDK支持单独签约业务，请按Menu键切换"
+            android:textColor="@android:color/black" />
+        
+
+    </LinearLayout>
+
+</ScrollView>

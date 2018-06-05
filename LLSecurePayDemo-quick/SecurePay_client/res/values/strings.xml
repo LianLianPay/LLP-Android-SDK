@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">认证支付SDK</string>
+    <string name="app_name_stand">标准版SDK</string>
+    <string name="sdk_introduction">SDK支持两种接入方式（标准版和卡前置），请按menu键进行选择所需要的支付方式，默认方式是标准版接入</string>
+
+</resources>

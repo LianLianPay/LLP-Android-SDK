@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/demo_comm_title" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="用户ID"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/idcard"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="身份证"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="姓名"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/money"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="付款金额"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(姓名 身份证)基本信息是否可修改"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/flag_modify_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/flag_modify_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="可修改"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/flag_modify_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不可修改"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/layout_precard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/bankno"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="银行卡"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="6225758380241106" />
+
+            <EditText
+                android:id="@+id/agree_no"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="支付协议号"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_agree_no"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/jump_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="连连支付"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/preauth_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="预授权"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/sdk_introduction"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>
