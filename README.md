@@ -2,11 +2,13 @@
 
 欢迎来到连连银行卡收款的Android SDK仓库，本仓库中含有认证， 快捷， 分期付的接入Demo工程及使用说明。
 
+其中， ```LLSecurePayDemo-quick```为快捷收款的接入示例；```SecurePayDemo-auth```为认证收款的接入示例；```SecurePayDemo-repay```为分期收款的接入示例。
+
 > 在本仓库的Demo中， ```EnvConstant.java```中有配置供演示及测试使用的商户私钥。为保障商户公私钥的安全， 建议您参考[签名机制](https://zealous-kare-7abde4.netlify.com/docs/development/signature-overview)在您的**服务器端**完成签名的加签和验签过程。
 
 ## 主要内容
 
-* [添加SDK至您的工程](#添加SDK至您的工程)
+* [添加SDK至您的工程](#添加sdk至您的工程)
 
 * [前置要求](#前置要求)
 
