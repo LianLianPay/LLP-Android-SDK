@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yintong.activity.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/activity_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="选择操作"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18dp"
+        android:background="#FF028AD7"/>
+
+    <TextView
+        android:id="@+id/demo_tv_secure_pay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="SecurePay支付"
+        android:textSize="16dp"
+        android:textColor="#FF333333"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="#FFCCCCCC"/>
+
+    <TextView
+        android:id="@+id/demo_tv_mobilebank_pay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="手机银行App支付"
+        android:textSize="16dp"
+        android:textColor="#FF333333"/>
+</LinearLayout>

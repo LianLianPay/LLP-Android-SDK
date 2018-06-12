@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_ll">#FF028AD7</color>
+    <color name="line_divider">#FFCCCCCC</color>
+    <color name="text_color">#FF333333</color>
+    <color name="activity_background">#FFEFEFEF</color>
+</resources>
