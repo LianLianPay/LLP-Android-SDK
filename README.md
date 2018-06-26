@@ -2,7 +2,7 @@
 
 欢迎来到连连银行卡收款的Android SDK仓库，本仓库中含有接入Demo工程及使用说明。
 
-其中， ```LLSecurePayDemo-quick```为快捷收款的接入示例；```SecurePayDemo-auth```为认证收款的接入示例；```SecurePayDemo-repay```为分期收款的接入示例；```MobilebankAndAuthDemo```为掌上银行的接入示例。
+其中， ```LLSecurePayDemo-quick```为快捷收款的接入示例；```SecurePayDemo-auth```为认证收款的接入示例；```SecurePayDemo-repay```为分期收款的接入示例。
 
 > 在本仓库的Demo中， ```EnvConstant.java```中有配置供演示及测试使用的商户私钥。为保障商户公私钥的安全， 建议您参考[签名机制](https://zealous-kare-7abde4.netlify.com/docs/development/signature-overview)在您的**服务器端**完成签名的加签和验签过程。
 
@@ -80,7 +80,7 @@ repositories {
 
 ## 使用情况
 
-此SDK适用于收款类产品中的认证， 快捷，分期付支付产品， 参数及使用方式详见[文档说明](#文档说明)。
+此SDK适用于收款类产品中的认证收款， 快捷收款，分期收款产品， 参数及使用时的注意事项详见[文档说明](#文档说明)。
 
 ## 混淆说明
 
@@ -112,5 +112,3 @@ repositories {
 * [连连开放平台-Android-认证收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/authenticate)
 
 * [连连开放平台-Android-分期收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/instalment)
-
-* [连连开放平台-Android-掌上银行收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/mobile-bank-request)
