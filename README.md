@@ -4,7 +4,7 @@
 
 其中， ```LLSecurePayDemo-quick```为快捷收款的接入示例；```SecurePayDemo-auth```为认证收款的接入示例；```SecurePayDemo-repay```为分期收款的接入示例。
 
-> 在本仓库的Demo中， ```EnvConstant.java```中有配置供演示及测试使用的商户私钥。为保障商户公私钥的安全， 建议您参考[签名机制](https://zealous-kare-7abde4.netlify.com/docs/development/signature-overview)在您的**服务器端**完成签名的加签和验签过程。
+> 在本仓库的Demo中， ```EnvConstant.java```中有配置供演示及测试使用的商户私钥。为保障商户公私钥的安全， 建议您参考[签名机制](https://openllp.lianlianpay.com/docs/development/signature-overview)在您的**服务器端**完成签名的加签和验签过程。
 
 ## 主要内容
 
@@ -105,10 +105,10 @@ repositories {
 
 ## 文档说明
 
-* [连连开放平台-Android-概述](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/overview)
+* [连连开放平台-Android-概述](https://openllp.lianlianpay.com/docs/receive-money/android/overview)
 
-* [连连开放平台-Android-快捷收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/express)
+* [连连开放平台-Android-快捷收款](https://openllp.lianlianpay.com/docs/receive-money/android/express)
 
-* [连连开放平台-Android-认证收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/authenticate)
+* [连连开放平台-Android-认证收款](https://openllp.lianlianpay.com/docs/receive-money/android/authenticate)
 
-* [连连开放平台-Android-分期收款](https://zealous-kare-7abde4.netlify.com/docs/receive-money/android/instalment)
+* [连连开放平台-Android-分期收款](https://openllp.lianlianpay.com/docs/receive-money/android/instalment)
