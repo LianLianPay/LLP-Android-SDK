@@ -6,6 +6,7 @@
 
 > 在本仓库的Demo中， ```EnvConstant.java```中有配置供演示及测试使用的商户私钥。为保障商户公私钥的安全， 建议您参考[签名机制](https://openllp.lianlianpay.com/docs/development/signature-overview)在您的**服务器端**完成签名的加签和验签过程。
 
+
 ## 主要内容
 
 * [添加SDK至您的工程](#添加sdk至您的工程)
@@ -27,6 +28,8 @@
 ```
 compile(name:'securePay-180419-v3.2.1.3', ext:'aar')
 ```
+
+> 最新的Android SDK请至```aars/```目录下进行获取。
 
 此外， ```build.gradle```中需要配置如下内容:
 
@@ -80,7 +83,7 @@ repositories {
 
 ## 使用情况
 
-此SDK适用于收款类产品中的认证收款， 快捷收款，分期收款产品， 参数及使用时的注意事项详见[文档说明](#文档说明)。
+此SDK适用于收款类产品中的认证收款， 快捷收款，分期收款产品， 参数及使用时的注意事项详见[文档说明](#文档说明)。 下载[示例工程](https://github.com/LianLianPay/LLP-Android-SDK/releases)后参照示例工程接入即可。
 
 ## 混淆说明
 
